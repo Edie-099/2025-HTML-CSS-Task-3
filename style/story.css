@@ -1,0 +1,75 @@
+/* 圓角 */
+.border-radius-4 {
+  border-radius: 4px;
+}
+
+/* 框線 */
+.border-bottom {
+  border-bottom: 1px solid var(--neutral-300);
+}
+
+.border-right {
+  border-right: 1px solid var(--neutral-900);
+}
+
+.border-left {
+    border-left: 3px solid var(--neutral-300);
+}
+
+.header-img {
+  background-image: url(../img/hero.png);
+  background-repeat: no-repeat; /* 不重複 */
+  background-size: cover; /* 不變形 必要時局部裁切 */
+  background-position: center; /* 位置 */
+}
+
+.list-item-desc {
+    display: block;
+    color: var(--primary-400);
+    text-decoration: underline;
+    text-underline-offset: 4px;
+}
+
+.list-item-desc:hover {
+  color: var(--primary-500);
+}
+
+@media (max-width: 767px) {
+    .header-md-img {
+        background-image: url(../img/hero-sm.png);
+    }
+}
+
+.intro-img {
+  width: 1076px;
+  /* margin-right: -110px; 使用負值調整圖片位置 */
+  /* margin-left: -110px; 使用負值調整圖片位置 */
+}
+
+.history-list-desc {
+    list-style: disc; /* 清單裝飾 */
+    padding-left: 24px;
+}
+
+/* btn */
+.btn {
+  font-family: "Noto Sans TC", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.05em;
+  padding: 12px 24px;
+  border-radius: 4px;
+  color: var(--neutral-0);
+  background-color: var(--neutral-900);
+}
+
+.btn:hover {
+  background-color: var(--neutral-700);
+}
+
+@media (max-width: 576px) {
+  .btn-sm {
+    padding: 8px 16px;
+  }
+}
