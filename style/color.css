@@ -4,7 +4,7 @@
     --primary-300: #C0FA73;
     --primary-400: #57A203;
     --primary-500: #477A11;
-    --neutral-0: #FFFFFF;
+    --neutral-white: #FFFFFF;
     --neutral-100: #F8F9FA;
     --neutral-300: #DEE2E6;
     --neutral-500: #ADB5BD;
@@ -18,8 +18,8 @@
     color: var(--primary-400);
 }
 
-.text-neutral-0 {
-    color: var(--neutral-0);
+.text-neutral-white {
+    color: var(--neutral-white);
 }
 
 .text-neutral-600 {

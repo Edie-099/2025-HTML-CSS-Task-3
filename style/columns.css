@@ -2,12 +2,13 @@
 .container {
     max-width: 1320px; /* 1920px - 格線所佔寬度 = 1296 + 左右 pd = 1320 */
     margin: 0 auto;
-    padding: 0px 12px;
+    padding-left: 12px;
+    padding-right: 12px;
 }
 
 .row {
-    /* display: flex;
-    flex-wrap: wrap; */
+    display: flex;
+    flex-wrap: wrap;
     margin: 0px -12px; /* 將 col 最外層的 padding 推回 */
 }
 
